@@ -18,9 +18,8 @@
       enable = true;
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" "terraform" "vi-mode"];
-        # thefuck
-        theme = "robbyrussell";
+        plugins = [ "git" "terraform" "vi-mode" "thefuck" "sudo" ];
+        theme = "agnoster";
       };
     };
 

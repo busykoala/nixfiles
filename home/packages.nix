@@ -29,6 +29,7 @@
     python3
     ripgrep
     texlive.combined.scheme-full
+    thefuck
     tmux
     tree
     unzip
