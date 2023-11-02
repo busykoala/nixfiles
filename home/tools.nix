@@ -39,17 +39,6 @@
 	  '';
         }
       ];
-#      configure = {
-#        customRC = ''
-#          set number
-#          set cc=80
-#        '';
-#        packages.myVimPackage = with pkgs.vimPlugins; {
-#          start = [
-#	    nerdtree
-#	  ];
-#        };
-#      };
     };
 
     tmux = {
