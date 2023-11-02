@@ -5,16 +5,19 @@
     bat
     cargo
     chromium
+    cowsay
     curl
     eza
     fd
     firefox
+    fortune
     fzf
     gcc
     gimp
     gnome.gnome-tweaks
     gnumake
     gnupg
+    go
     grc
     keepassxc
     kubectl
@@ -28,6 +31,7 @@
     poetry
     python3
     ripgrep
+    sl
     texlive.combined.scheme-full
     thefuck
     tmux
