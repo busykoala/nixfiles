@@ -6,6 +6,7 @@
     cargo
     chromium
     curl
+    eza
     fd
     firefox
     fzf

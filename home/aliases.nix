@@ -12,7 +12,7 @@
     grep = "grep --color";
     tf = "terraform";
     k = "kubectl";
-    la = "ls -hal";
+    la = "exa -hal";
     docker = "podman";
 
     ".." = "cd ..";

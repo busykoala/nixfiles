@@ -6,8 +6,6 @@
 
     git = {
       enable = true;
-      # package = pkgs.gitAndTools.gitFull;
-      # delta = { enable = true; };
       signing = {
          key = "58BFCAEC8B1CCA79209F9776C363B63341FC23BB";
          signByDefault = true;
@@ -18,6 +16,12 @@
 
     zsh = {
       enable = true;
+      oh-my-zsh = {
+        enable = true;
+        plugins = [ "git" "terraform" "vi-mode"];
+        # thefuck
+        theme = "robbyrussell";
+      };
     };
 
     neovim = {
