@@ -13,6 +13,7 @@
     tf = "terraform";
     k = "kubectl";
     la = "ls -hal";
+    docker = "podman";
 
     ".." = "cd ..";
     "..." = "cd ../..";

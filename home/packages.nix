@@ -23,9 +23,11 @@
     nmap
     nodejs
     opentofu
+    pandoc
     poetry
     python3
     ripgrep
+    texlive.combined.scheme-full
     tmux
     tree
     unzip
