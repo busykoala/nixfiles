@@ -32,6 +32,7 @@
     python3
     ripgrep
     sl
+    slack
     texlive.combined.scheme-full
     thefuck
     tmux
