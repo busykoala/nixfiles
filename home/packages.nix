@@ -7,6 +7,7 @@
     chromium
     cowsay
     curl
+    delta
     eza
     fd
     firefox
