@@ -2,6 +2,7 @@
 
 {
   home.packages = with pkgs; [
+    awscli2
     azure-cli
     azure-functions-core-tools
     bat
