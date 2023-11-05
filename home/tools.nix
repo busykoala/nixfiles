@@ -13,7 +13,7 @@
     git = {
       enable = true;
       signing = {
-         key = "58BFCAEC8B1CCA79209F9776C363B63341FC23BB";
+         key = "0B3928CBCA2E487849E9A52836B5F98B41732777";
          signByDefault = true;
       };
       userEmail = "matthias@bespinian.io";
