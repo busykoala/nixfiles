@@ -2,9 +2,19 @@
 
 This repo is highly inspired by [cloudlenas awesome nixfiles](https://github.com/cloudlena/nixfiles/).
 
-## Usage
+## Init steps
 
-- clone the repository
-- make sure there is `gnumake` in the current shell
-- run `make system`
-- run `make home`
+```bash
+# create or copy your ssh key (assuming id_rsa)
+chmod 600 ~/.ssh/id_rsa
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+nix-shell -p git gnumake
+git clone git@github.com:busykoala/nixfiles.git
+cd nixfiles
+
+cp /etc/nixos/hardware-configuration.nix ./system/hardware-configuration.nix
+sudo make system
+make home
+```

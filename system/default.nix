@@ -81,7 +81,7 @@
     gnome.gnome-keyring.enable = true;
   };
 
-  system.stateVersion = "23.11";
+  system.stateVersion = "23.05";
 
   virtualisation.podman.enable = true;
 
