@@ -40,6 +40,7 @@
     slack
     texlive.combined.scheme-full
     thefuck
+    thunderbird
     tmux
     tree
     unzip
