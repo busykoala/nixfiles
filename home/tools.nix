@@ -41,7 +41,7 @@
       enable = true;
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" "terraform" "vi-mode" "thefuck" "sudo" ];
+        plugins = [ "aws" "git" "terraform" "vi-mode" "thefuck" "sudo" ];
         theme = "agnoster";
       };
     };
