@@ -46,6 +46,7 @@
     unzip
     wget
     whois
+    yarn
     zip
   ];
 }
