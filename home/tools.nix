@@ -13,7 +13,7 @@
     git = {
       enable = true;
       signing = {
-         key = "0B3928CBCA2E487849E9A52836B5F98B41732777";
+         key = "<put your key here>";
          signByDefault = true;
       };
       userEmail = "matthias@bespinian.io";
