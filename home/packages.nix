@@ -2,6 +2,8 @@
 
 {
   home.packages = with pkgs; [
+    azure-cli
+    azure-functions-core-tools
     bat
     cargo
     chromium
@@ -20,6 +22,7 @@
     gnupg
     go
     grc
+    hugo
     keepassxc
     kubectl
     kubernetes-helm

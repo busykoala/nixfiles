@@ -83,6 +83,13 @@
 
   system.stateVersion = "23.05";
 
+#  system.activationScripts.binbash = {
+#    deps = [ "binsh" ];
+#    text = ''
+#         ln -s /bin/sh /bin/bash
+#    '';
+#  };
+
   virtualisation.podman.enable = true;
 
 }

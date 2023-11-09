@@ -10,7 +10,7 @@
     gcm = "git commit -m";
 
     grep = "grep --color";
-    tf = "terraform";
+    tf = "tofu";
     k = "kubectl";
     la = "exa -hal";
     docker = "podman";
