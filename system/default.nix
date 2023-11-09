@@ -34,6 +34,9 @@
     xkbVariant = "intl";
   };
 
+  # enable onedrive
+  services.onedrive.enable = true;
+
   # Configure console keymap
   console.keyMap = "us-acentos";
 

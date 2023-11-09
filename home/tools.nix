@@ -13,7 +13,7 @@
     git = {
       enable = true;
       signing = {
-         key = "58BFCAEC8B1CCA79209F9776C363B63341FC23BB";
+         key = "<put your key here>";
          signByDefault = true;
       };
       userEmail = "matthias@bespinian.io";
@@ -41,7 +41,7 @@
       enable = true;
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" "terraform" "vi-mode" "thefuck" "sudo" ];
+        plugins = [ "aws" "git" "terraform" "vi-mode" "thefuck" "sudo" ];
         theme = "agnoster";
       };
     };

@@ -18,3 +18,9 @@ cp /etc/nixos/hardware-configuration.nix ./system/hardware-configuration.nix
 sudo make system
 make home
 ```
+
+## Additional setup
+
+- [setup onedrive](https://nixos.wiki/wiki/OneDrive)
+- change scroll direction for touchpad
+- use tweaks to remap the keyboard

@@ -2,6 +2,7 @@
 
 {
   home.packages = with pkgs; [
+    awscli2
     azure-cli
     azure-functions-core-tools
     bat
@@ -39,11 +40,13 @@
     slack
     texlive.combined.scheme-full
     thefuck
+    thunderbird
     tmux
     tree
     unzip
     wget
     whois
+    yarn
     zip
   ];
 }
