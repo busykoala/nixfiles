@@ -36,6 +36,7 @@
     poetry
     python3
     ripgrep
+    signal-desktop
     sl
     slack
     texlive.combined.scheme-full
