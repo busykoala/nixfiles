@@ -24,6 +24,7 @@
     go
     grc
     hugo
+    k9s
     keepassxc
     kubectl
     kubernetes-helm
