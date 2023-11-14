@@ -1,5 +1,3 @@
-{ config, pkgs, ... }:
-
 {
   home.shellAliases = {
     gd = "git diff --color";
