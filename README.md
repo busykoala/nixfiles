@@ -24,3 +24,4 @@ make home
 - [setup onedrive](https://nixos.wiki/wiki/OneDrive)
 - change scroll direction for touchpad
 - use tweaks to remap the keyboard
+- add copyq shortcut `copyq -e "toggle()"` in gnome

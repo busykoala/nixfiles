@@ -16,6 +16,7 @@ in
     bat
     cargo
     chromium
+    copyq
     cowsay
     curl
     delta
