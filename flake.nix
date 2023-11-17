@@ -16,16 +16,16 @@
 
     in
     {
-      nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.bespinian = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          ./system
+          ./hosts/bespinian/system
         ];
       };
 
       homeConfigurations.bespinian = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
-        modules = [ ./hosts/bespinian ];
+        modules = [ ./hosts/bespinian/home ];
       };
 
       formatter.${system} = pkgs.nixpkgs-fmt;
