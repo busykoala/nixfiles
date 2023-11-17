@@ -23,9 +23,9 @@
         ];
       };
 
-      homeConfigurations.busykoala = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations.bespinian = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
-        modules = [ ./home ];
+        modules = [ ./hosts/bespinian ];
       };
 
       formatter.${system} = pkgs.nixpkgs-fmt;

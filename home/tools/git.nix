@@ -1,10 +1,12 @@
+{ gitUserEmail, gitSigningKey }:
+
 {
   enable = true;
   signing = {
-     key = "58BFCAEC8B1CCA79209F9776C363B63341FC23BB";
+     key = gitSigningKey;
      signByDefault = true;
   };
-  userEmail = "matthias@bespinian.io";
+  userEmail = gitUserEmail;
   userName = "Matthias Osswald";
   ignores = [
     ".idea" ".vscode" ".DS_Store" ".envrc" "shell.nix" "*.swp" "*.swo"
