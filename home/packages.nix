@@ -10,10 +10,13 @@ in
 {
   home.packages = with pkgs; [
     (python311.withPackages python-packages)
+    arp-scan
     awscli2
     azure-cli
     azure-functions-core-tools
     bat
+    binwalk
+    burpsuite
     cargo
     chromium
     copyq
@@ -22,6 +25,7 @@ in
     delta
     eza
     fd
+    file
     firefox
     fortune
     fzf
@@ -34,12 +38,16 @@ in
     grc
     hugo
     jdk
+    john
     k9s
     keepassxc
     kubectl
     kubernetes-helm
     libreoffice
     lolcat
+    metasploit
+    mtr
+    nikto
     nmap
     nodejs
     opentofu
@@ -49,12 +57,16 @@ in
     signal-desktop
     sl
     slack
+    sqlmap
+    tcpdump
     terraform-lsp
     texlive.combined.scheme-full
     thefuck
     thunderbird
     tmux
+    traceroute
     tree
+    tshark
     unzip
     wget
     whois
