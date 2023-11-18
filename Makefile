@@ -2,13 +2,18 @@
 update:
 	nix flake update
 
-.PHONY: system
-system:
-	sudo mv ./system/hardware-configuration.nix ./system/hardware-configuration.nix.bak
-	sudo cp /etc/nixos/hardware-configuration.nix ./system/hardware-configuration.nix
-	sudo nixos-rebuild switch --flake .
-	sudo mv ./system/hardware-configuration.nix.bak ./system/hardware-configuration.nix
+.PHONY: system-bespinian
+system-bespinian:
+	sudo nixos-rebuild switch --flake .#bespinian
 
-.PHONY: home
-home:
-	home-manager switch --flake .
+.PHONY: home-bespinian
+home-bespinian:
+	home-manager switch --flake .#bespinian
+
+.PHONY: system-schnurrli
+system-schnurrli:
+	sudo nixos-rebuild switch --flake .#schnurrli
+
+.PHONY: home-schnurrli
+home-schnurrli:
+	home-manager switch --flake .#schnurrli

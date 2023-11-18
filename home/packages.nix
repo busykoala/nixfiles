@@ -1,13 +1,22 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
+
+let
+  python-packages = ps: with ps; [
+    pip
+    requests
+  ];
+in
 
 {
   home.packages = with pkgs; [
+    (python311.withPackages python-packages)
     awscli2
     azure-cli
     azure-functions-core-tools
     bat
     cargo
     chromium
+    copyq
     cowsay
     curl
     delta
@@ -24,6 +33,7 @@
     go
     grc
     hugo
+    jdk
     k9s
     keepassxc
     kubectl
@@ -35,11 +45,11 @@
     opentofu
     pandoc
     poetry
-    python3
     ripgrep
     signal-desktop
     sl
     slack
+    terraform-lsp
     texlive.combined.scheme-full
     thefuck
     thunderbird
