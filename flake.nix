@@ -28,6 +28,18 @@
         modules = [ ./hosts/bespinian/home ];
       };
 
+      nixosConfigurations.schnurrli = nixpkgs.lib.nixosSystem {
+        inherit system;
+        modules = [
+          ./hosts/schnurrli/system
+        ];
+      };
+
+      homeConfigurations.schnurrli = home-manager.lib.homeManagerConfiguration {
+        inherit pkgs;
+        modules = [ ./hosts/schnurrli/home ];
+      };
+
       formatter.${system} = pkgs.nixpkgs-fmt;
     };
 }
