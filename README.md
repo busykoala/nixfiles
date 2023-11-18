@@ -14,9 +14,8 @@ nix-shell -p git gnumake
 git clone git@github.com:busykoala/nixfiles.git
 cd nixfiles
 
-cp /etc/nixos/hardware-configuration.nix ./system/hardware-configuration.nix
-sudo make system
-make home
+sudo make system-<name>
+make home-<name>
 ```
 
 ## Additional setup
