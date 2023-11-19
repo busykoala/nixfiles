@@ -47,10 +47,13 @@ in
     lolcat
     metasploit
     mtr
+    netdiscover
     nikto
     nmap
     nodejs
+    openssl
     opentofu
+    p0f
     pandoc
     podman-compose
     poetry
@@ -67,10 +70,10 @@ in
     tmux
     traceroute
     tree
-    tshark
     unzip
     wget
     whois
+    wireshark
     yarn
     zip
   ];
