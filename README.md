@@ -23,10 +23,12 @@ make home-<name>
 - [setup onedrive](https://nixos.wiki/wiki/OneDrive)
 - In nvim run `:Copilot setup`
 
-## Some helpful commands
+## References and Notes
+
+[home-manager option search](https://mipmip.github.io/home-manager-option-search/)
 
 ```zsh
-# run a pkg that is not yet installed
+# run a pkg that is not yet installed from nix pkgs
 nix run nixpkgs#htop
 
 # temp. add a pkg that is not yet installed
