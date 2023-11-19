@@ -52,6 +52,7 @@ in
     nodejs
     opentofu
     pandoc
+    podman-compose
     poetry
     ripgrep
     signal-desktop

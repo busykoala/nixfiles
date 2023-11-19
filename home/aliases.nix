@@ -12,6 +12,7 @@
     k = "kubectl";
     la = "exa -hal";
     docker = "podman";
+    docker-compose = "podman-compose";
 
     ".." = "cd ..";
     "..." = "cd ../..";
