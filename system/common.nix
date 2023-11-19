@@ -60,6 +60,12 @@
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 30d";
+  };
+
   environment.systemPackages = with pkgs; [
     home-manager
   ];
@@ -77,6 +83,7 @@
   # List services that you want to enable:
   services = {
     gnome.gnome-keyring.enable = true;
+    gnome.core-utilities.enable = false;
   };
 
   system.stateVersion = "23.05";

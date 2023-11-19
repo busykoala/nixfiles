@@ -4,7 +4,7 @@ This repo is highly inspired by [cloudlenas awesome nixfiles](https://github.com
 
 ## Init steps
 
-```bash
+```zsh
 # create or copy your ssh key (assuming id_rsa)
 chmod 600 ~/.ssh/id_rsa
 eval "$(ssh-agent -s)"
@@ -22,3 +22,13 @@ make home-<name>
 
 - [setup onedrive](https://nixos.wiki/wiki/OneDrive)
 - In nvim run `:Copilot setup`
+
+## Some helpful commands
+
+```zsh
+# run a pkg that is not yet installed
+nix run nixpkgs#htop
+
+# temp. add a pkg that is not yet installed
+nix shell nixpkgs#htop
+```
