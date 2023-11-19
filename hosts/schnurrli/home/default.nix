@@ -12,6 +12,7 @@ in
   imports = [
     ../../../home/packages.nix
     ../../../home/aliases.nix
+    ../../../home/dconf.nix
   ] ++config-files;
 
   nixpkgs.config.allowUnfree = true;
