@@ -22,6 +22,8 @@ make home-<name>
 
 - [setup onedrive](https://nixos.wiki/wiki/OneDrive)
 - In nvim run `:Copilot setup`
+- Setup [timewarrior as a taskwarrior hook](https://timewarrior.net/docs/taskwarrior/)  
+  [Warriors hints](https://gist.github.com/busykoala/f8f78ac6e3fd9e6cf56746fe60755a53)
 
 ## References and Notes
 

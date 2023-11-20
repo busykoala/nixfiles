@@ -62,11 +62,13 @@ in
     sl
     slack
     sqlmap
+    taskwarrior
     tcpdump
     terraform-lsp
     texlive.combined.scheme-full
     thefuck
     thunderbird
+    timewarrior
     tmux
     traceroute
     tree
