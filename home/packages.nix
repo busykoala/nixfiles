@@ -15,6 +15,7 @@ in
     azure-cli
     azure-functions-core-tools
     bat
+    bind
     binwalk
     burpsuite
     cargo
@@ -32,6 +33,7 @@ in
     gcc
     gimp
     gnome.gnome-tweaks
+    gnome3.nautilus
     gnumake
     gnupg
     go
@@ -57,6 +59,7 @@ in
     pandoc
     podman-compose
     poetry
+    quickemu
     ripgrep
     signal-desktop
     sl
