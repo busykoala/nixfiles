@@ -10,6 +10,7 @@ in
 {
   home.packages = with pkgs; [
     (python311.withPackages python-packages)
+    altair
     arp-scan
     awscli2
     azure-cli
@@ -33,14 +34,16 @@ in
     gcc
     gimp
     gnome.gnome-tweaks
-    gnome3.nautilus
+    gnome.nautilus
     gnumake
     gnupg
     go
+    gopls
     grc
     hugo
     jdk
     john
+    julia-lts
     k9s
     keepassxc
     kubectl
@@ -65,13 +68,12 @@ in
     sl
     slack
     sqlmap
-    taskwarrior
+    subfinder
     tcpdump
     terraform-lsp
     texlive.combined.scheme-full
     thefuck
     thunderbird
-    timewarrior
     tmux
     traceroute
     tree
