@@ -40,6 +40,7 @@ in
     go
     gopls
     grc
+    helmfile
     hugo
     jdk
     john
