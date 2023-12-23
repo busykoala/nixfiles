@@ -19,6 +19,7 @@ in
     bind
     binwalk
     burpsuite
+    distrobox
     cargo
     chromium
     copyq
