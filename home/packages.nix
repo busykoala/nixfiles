@@ -84,5 +84,6 @@ in
     wireshark
     yarn
     zip
+    zotero
   ];
 }
