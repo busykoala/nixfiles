@@ -45,6 +45,7 @@ in
     hugo
     jdk
     john
+    jq
     julia-lts
     k9s
     keepassxc
