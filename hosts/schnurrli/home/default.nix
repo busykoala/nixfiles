@@ -43,5 +43,6 @@ in
     neovim = import ../../../home/tools/neovim.nix { inherit pkgs; };
     tmux = import ../../../home/tools/tmux.nix;
     alacritty = import ../../../home/tools/alacritty.nix;
+    helix = import ../../../home/tools/helix.nix { inherit pkgs; };
   };
 }

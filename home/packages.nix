@@ -88,5 +88,17 @@ in
     yarn
     zip
     zotero
+    # language servers
+    gopls
+    marksman
+    nil
+    nodePackages.bash-language-server
+    nodePackages.dockerfile-language-server-nodejs
+    nodePackages.typescript-language-server
+    nodePackages.yaml-language-server
+    python311Packages.python-lsp-server
+    rust-analyzer
+    terraform-ls
+    vscode-langservers-extracted
   ];
 }

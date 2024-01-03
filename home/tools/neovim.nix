@@ -2,9 +2,9 @@
 
 {
   enable = true;
-  defaultEditor = true;
-  viAlias = true;
-  vimAlias = true;
+  # defaultEditor = true;
+  # viAlias = true;
+  # vimAlias = true;
   extraConfig = ''
     "-------------------------------------------------------------------------------
     " Basic settings (leader, numbers, list...)
