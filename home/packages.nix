@@ -41,6 +41,7 @@ in
     go
     gopls
     grc
+    helix
     helmfile
     hugo
     jdk
