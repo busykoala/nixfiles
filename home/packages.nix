@@ -19,13 +19,13 @@ in
     bind
     binwalk
     burpsuite
-    distrobox
     cargo
     chromium
     copyq
     cowsay
     curl
     delta
+    distrobox
     eza
     fd
     file
@@ -49,6 +49,7 @@ in
     julia-lts
     k9s
     keepassxc
+    kube-score
     kubectl
     kubernetes-helm
     libreoffice
