@@ -9,6 +9,7 @@
       background_color = "#1c1c1c";
       use_system_font = false;
       font = "Source Code Pro Regular 13";
+      show_titlebar = false;
     };
   };
 }
