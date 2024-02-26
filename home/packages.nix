@@ -21,6 +21,7 @@ in
     burpsuite
     cargo
     chromium
+    citrix_workspace
     copyq
     cowsay
     curl
