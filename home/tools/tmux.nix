@@ -15,13 +15,16 @@
     unbind %
 
     # Enable mouse mode (tmux 2.1 and above)
-    set -g mouse on
+    set -g mouse off
 
     # don't rename windows automatically
     set-option -g allow-rename off
 
+    # set vi mode
+    setw -g mode-keys vi
+
     # reload config with `r`
-    bind r source-file ~/.tmux.conf
+    # bind r source-file ~/.tmux.conf
 
     # Start window and pane indices at 1.
     set -g base-index 1
