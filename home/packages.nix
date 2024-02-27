@@ -86,6 +86,8 @@ in
     wget
     whois
     wireshark
+    xclip
+    xsel
     yarn
     zip
     zotero
