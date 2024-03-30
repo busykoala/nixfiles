@@ -24,9 +24,9 @@
   services.xserver.desktopManager.gnome.enable = true;
 
   # Configure keymap in X11
-  services.xserver = {
+  services.xserver.xkb = {
     layout = "us";
-    xkbVariant = "intl";
+    variant = "intl";
   };
 
   # enable onedrive
@@ -73,7 +73,6 @@
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
-    pinentryFlavor = "curses";
   };
 
   programs = {
