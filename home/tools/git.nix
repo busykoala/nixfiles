@@ -25,4 +25,5 @@
       autosetuprebase = "always";
     };
   };
+  lfs.enable = true;
 }

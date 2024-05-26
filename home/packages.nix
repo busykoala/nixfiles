@@ -80,6 +80,7 @@ in
     thunderbird
     tmux
     traceroute
+    transmission_4-qt
     tree
     unzip
     wget
