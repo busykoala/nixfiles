@@ -89,6 +89,7 @@ in
     xclip
     xsel
     yarn
+    zed-editor
     zip
     zotero
   ];
