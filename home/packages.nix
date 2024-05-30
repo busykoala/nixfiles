@@ -33,6 +33,7 @@ in
     fortune
     fzf
     gcc
+    ghc
     gimp
     gnome.gnome-tweaks
     gnome.nautilus
