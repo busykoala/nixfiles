@@ -42,6 +42,7 @@ in
     go
     gopls
     grc
+    haskell-language-server
     helmfile
     hugo
     jdk
