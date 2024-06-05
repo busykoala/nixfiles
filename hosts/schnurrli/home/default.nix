@@ -44,5 +44,6 @@ in
     tmux = import ../../../home/tools/tmux.nix;
     terminator = import ../../../home/tools/terminator.nix;
     alacritty = import ../../../home/tools/alacritty.nix;
+    helix = import ../../../home/tools/helix.nix { inherit pkgs; };
   };
 }

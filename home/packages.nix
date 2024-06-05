@@ -43,6 +43,7 @@ in
     gopls
     grc
     haskell-language-server
+    helix-gpt
     helmfile
     hugo
     jdk
