@@ -47,6 +47,9 @@ in
     helmfile
     hugo
     jdk
+    jetbrains.datagrip
+    jetbrains.pycharm-professional
+    jetbrains.webstorm
     john
     jq
     julia-lts
