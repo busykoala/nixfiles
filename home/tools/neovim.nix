@@ -77,6 +77,14 @@
         EOF
       '';
     }
+    {
+      plugin = pkgs.vimPlugins.vim-airline;
+      config = "let g:airline_powerline_fonts = 1";
+    }
+    {
+      plugin = pkgs.vimPlugins.vim-airline-themes;
+      config = "let g:airline_theme='cyberpunk'";
+    }
     pkgs.vimPlugins.editorconfig-vim
     pkgs.vimPlugins.fzf-vim
     pkgs.vimPlugins.vim-polyglot
