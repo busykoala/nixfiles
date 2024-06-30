@@ -55,6 +55,7 @@ in
     libreoffice
     lolcat
     mtr
+    navi
     nerdfonts
     netdiscover
     nikto

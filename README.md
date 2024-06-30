@@ -34,3 +34,12 @@ nix run nixpkgs#htop
 # temp. add a pkg that is not yet installed
 nix shell nixpkgs#htop
 ```
+
+## Some useful tools
+
+- `duf`: disk usage/free utility providing more intuitive output.
+- `dust`: more intuitive version of du to visualize disk usage.
+- `tokei`: code statistics counter.
+- `q-text-as-data`: run SQL queries on CSV files.
+  e.g.: `q -H -d, "SELECT * FROM data/dos_traces.csv WHERE ip_source LIKE '%.248'"`
+- `xsv`: fast CSV command line toolkit.
