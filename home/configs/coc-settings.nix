@@ -9,6 +9,10 @@
           "filetypes": ["terraform"]
         }
       }
+      "diagnostic.errorSign": "✗",
+      "diagnostic.warningSign": "⚠",
+      "diagnostic.infoSign": "ℹ",
+      "diagnostic.hintSign": "➤"
     }
   '';
 }
