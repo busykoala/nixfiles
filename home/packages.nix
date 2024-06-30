@@ -10,7 +10,6 @@ in
 {
   home.packages = with pkgs; [
     (python311.withPackages python-packages)
-    altair
     arp-scan
     awscli2
     azure-cli
@@ -25,7 +24,6 @@ in
     cowsay
     curl
     delta
-    distrobox
     eza
     fd
     file
@@ -33,7 +31,6 @@ in
     fortune
     fzf
     gcc
-    ghc
     gimp
     gnome.gnome-tweaks
     gnome.nautilus
@@ -42,17 +39,14 @@ in
     go
     gopls
     grc
-    haskell-language-server
-    helix-gpt
     helmfile
-    hugo
+    htop
     jdk
     jetbrains.datagrip
     jetbrains.pycharm-professional
     jetbrains.webstorm
     john
     jq
-    julia-lts
     k9s
     keepassxc
     kube-score
@@ -60,7 +54,6 @@ in
     kubernetes-helm
     libreoffice
     lolcat
-    metasploit
     mtr
     nerdfonts
     netdiscover
@@ -70,10 +63,8 @@ in
     openssl
     opentofu
     p0f
-    pandoc
     podman-compose
     poetry
-    quickemu
     ripgrep
     signal-desktop
     sl
@@ -82,7 +73,6 @@ in
     subfinder
     tcpdump
     terraform-lsp
-    texlive.combined.scheme-full
     thefuck
     thunderbird
     tmux
