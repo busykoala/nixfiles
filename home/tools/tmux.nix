@@ -15,7 +15,7 @@
     unbind %
 
     # Enable mouse mode (tmux 2.1 and above)
-    set -g mouse off
+    set -g mouse on
 
     # don't rename windows automatically
     set-option -g allow-rename off
