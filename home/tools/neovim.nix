@@ -73,8 +73,8 @@
       '';
     }
     {
-      plugin = pkgs.vimPlugins.papercolor-theme;
-      config = "colorscheme PaperColor";
+      plugin = pkgs.vimPlugins.fleet-theme-nvim;
+      config = "colorscheme fleet";
     }
     pkgs.vimPlugins.editorconfig-vim
     pkgs.vimPlugins.vim-fugitive
