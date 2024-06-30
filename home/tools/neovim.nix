@@ -38,17 +38,8 @@
     nnoremap <leader>g :Rg<CR>
     nnoremap <leader>m :Marks<CR>
 
-    "-------------------------------------------------------------------------------
-    " Split navigation & settings
-    "-------------------------------------------------------------------------------
-    nnoremap <C-J> <C-W><C-J>
-    nnoremap <C-K> <C-W><C-K>
-    nnoremap <C-L> <C-W><C-L>
-    nnoremap <C-H> <C-W><C-H>
-    nnoremap <leader>v :vsplit<CR>
-    nnoremap <leader>h :split<CR>
-    set splitbelow
-    set splitright
+    " diff with gitsigns plugin
+    nnoremap <leader>d :Gitsigns diffthis<CR>
 
     "-------------------------------------------------------------------------------
     " Fulltext search using ripgrep
@@ -76,9 +67,17 @@
       plugin = pkgs.vimPlugins.fleet-theme-nvim;
       config = "colorscheme fleet";
     }
+    {
+      plugin = pkgs.vimPlugins.gitsigns-nvim;
+      config = ''
+        lua << EOF
+          require('gitsigns').setup {
+            current_line_blame = true
+          }
+        EOF
+      '';
+    }
     pkgs.vimPlugins.editorconfig-vim
-    pkgs.vimPlugins.vim-fugitive
-    pkgs.vimPlugins.vim-gitgutter
     pkgs.vimPlugins.fzf-vim
     pkgs.vimPlugins.vim-polyglot
     pkgs.vimPlugins.coc-spell-checker
