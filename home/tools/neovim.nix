@@ -85,6 +85,7 @@
       plugin = pkgs.vimPlugins.vim-airline-themes;
       config = "let g:airline_theme='cyberpunk'";
     }
+    pkgs.vimPlugins.vim-commentary
     pkgs.vimPlugins.editorconfig-vim
     pkgs.vimPlugins.fzf-vim
     pkgs.vimPlugins.vim-polyglot
