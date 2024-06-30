@@ -62,6 +62,7 @@ in
     lolcat
     metasploit
     mtr
+    nerdfonts
     netdiscover
     nikto
     nmap
