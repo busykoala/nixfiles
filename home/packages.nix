@@ -32,8 +32,7 @@ in
     fzf
     gcc
     gimp
-    gnome.gnome-tweaks
-    gnome.nautilus
+    gnome-tweaks
     gnumake
     gnupg
     go
@@ -55,6 +54,7 @@ in
     libreoffice
     lolcat
     mtr
+    nautilus
     navi
     nerdfonts
     netdiscover
